@@ -39,6 +39,7 @@
 .custom_nav ul li a:hover {
     color: #60efff !important;
     transform: scale(1.1);
+    box-shadow: 0px 15px 20px rgba(44, 114, 255, 0.489);
 }
 
 
@@ -64,11 +65,12 @@
 .hero_btn a {
     background: linear-gradient(90deg, #60efff, #0061ff);
     text-decoration: none;
-    color: white;
+    color: white !important;
     font-weight: 500;
     border-radius: 20px;
     padding: 8px 20px;
     transition: all 0.4s ease-in-out;
+    cursor: pointer;
 
 }
 
@@ -76,7 +78,7 @@
     background: #60efff;
     box-shadow: 0px 15px 20px rgba(44, 114, 255, 0.489);
     transform: translateY(-7px);
-    color: black;
+    color: black !important;
 
 
 }
